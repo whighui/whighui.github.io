@@ -20,20 +20,20 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="AOF是同步存储还是异步存储bg AOF">
+  <meta name="description" content="编译过程gcc &amp; g++ gcc 官方文档网站：https:&#x2F;&#x2F;gcc.gnu.org&#x2F;onlinedocs&#x2F;  gcc 的一个版本，默认语言设置为 C++，而且在链接的时候自动包含标准 C++ 库。这和 g++ 一样  ar： 这是一个程序，可通过从文档中增加、删除和析取文件来维护库文件。通常使用该工具是为了创建和管理连接程序使用的目标库文档。该程序是 binutils 包的一部分">
 <meta property="og:type" content="article">
-<meta property="og:title" content="redis-持久化AOF">
-<meta property="og:url" content="http://example.com/2023/06/20/middle/redis/%E6%8C%81%E4%B9%85%E5%8C%96/aof/index.html">
+<meta property="og:title" content="c与c++编译工具">
+<meta property="og:url" content="http://example.com/2023/06/20/language/c/cmake/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="AOF是同步存储还是异步存储bg AOF">
+<meta property="og:description" content="编译过程gcc &amp; g++ gcc 官方文档网站：https:&#x2F;&#x2F;gcc.gnu.org&#x2F;onlinedocs&#x2F;  gcc 的一个版本，默认语言设置为 C++，而且在链接的时候自动包含标准 C++ 库。这和 g++ 一样  ar： 这是一个程序，可通过从文档中增加、删除和析取文件来维护库文件。通常使用该工具是为了创建和管理连接程序使用的目标库文档。该程序是 binutils 包的一部分">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2023-06-19T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-07-05T14:27:16.809Z">
+<meta property="article:modified_time" content="2024-07-19T06:43:06.443Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="分布式-raft">
+<meta property="article:tag" content="c++">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2023/06/20/middle/redis/%E6%8C%81%E4%B9%85%E5%8C%96/aof/">
+<link rel="canonical" href="http://example.com/2023/06/20/language/c/cmake/">
 
 
 <script id="page-configurations">
@@ -46,7 +46,7 @@
   };
 </script>
 
-  <title>redis-持久化AOF | Hexo</title>
+  <title>c与c++编译工具 | Hexo</title>
   
 
 
@@ -161,7 +161,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/20/middle/redis/%E6%8C%81%E4%B9%85%E5%8C%96/aof/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/06/20/language/c/cmake/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/img/other/header.jpg">
@@ -174,7 +174,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          redis-持久化AOF
+          c与c++编译工具
         </h1>
 
         <div class="post-meta">
@@ -191,7 +191,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2024-07-05 22:27:16" itemprop="dateModified" datetime="2024-07-05T22:27:16+08:00">2024-07-05</time>
+                <time title="Modified: 2024-07-19 14:43:06" itemprop="dateModified" datetime="2024-07-19T14:43:06+08:00">2024-07-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -199,7 +199,7 @@
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%88%86%E5%B8%83%E5%BC%8F-raft/" itemprop="url" rel="index"><span itemprop="name">分布式-raft</span></a>
+                  <a href="/categories/c/" itemprop="url" rel="index"><span itemprop="name">c++</span></a>
                 </span>
             </span>
 
@@ -214,7 +214,39 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="AOF是同步存储还是异步存储"><a href="#AOF是同步存储还是异步存储" class="headerlink" title="AOF是同步存储还是异步存储"></a>AOF是同步存储还是异步存储</h1><h1 id="bg-AOF"><a href="#bg-AOF" class="headerlink" title="bg AOF"></a>bg AOF</h1>
+        <h1 id="编译过程"><a href="#编译过程" class="headerlink" title="编译过程"></a>编译过程</h1><h1 id="gcc-amp-g"><a href="#gcc-amp-g" class="headerlink" title="gcc &amp; g++"></a>gcc &amp; g++</h1><ul>
+<li><p><strong>gcc</strong> 官方文档网站：<a target="_blank" rel="noopener" href="https://gcc.gnu.org/onlinedocs/">https://gcc.gnu.org/onlinedocs/</a></p>
+</li>
+<li><p><strong>gcc</strong> 的一个版本，默认语言设置为 C++，而且在链接的时候自动包含标准 C++ 库。这和 g++ 一样</p>
+</li>
+<li><p><strong>ar：</strong> 这是一个程序，可通过从文档中增加、删除和析取文件来维护库文件。通常使用该工具是为了创建和管理连接程序使用的目标库文档。该程序是 binutils 包的一部分</p>
+</li>
+<li><p><strong>as：</strong> GNU 汇编器。实际上它是一族汇编器，因为它可以被编译或能够在各种不同平台上工作。该程序是 binutjls 包的一部分<br>autoconf：产生的 shell 脚本自动配置源代码包去编译某个特定版本的 UNIX</p>
+</li>
+<li><p><strong>gdb：</strong> GNU 调试器，可用于检查程序运行时的值和行为<br>GNATS：GNU 的调试跟踪系统（GNU Bug Tracking System）。一个跟踪 GCC和其他 GNU 软件问题的在线系统</p>
+</li>
+<li><p><strong>gprof：</strong> 该程序会监督编译程序的执行过程，并报告程序中各个函数的运行时间，可以根据所提供的配置文件来优化程序。该程序是 binutils 包的一部分</p>
+</li>
+<li><p><strong>ld：</strong> GNU 连接程序。该程序将目标文件的集合组合成可执行程序。该程序是 binutils 包的一部分</p>
+</li>
+<li><p><strong>libtool：</strong> 一个基本库，支持 make 程序的描述文件使用的简化共享库用法的脚本</p>
+</li>
+<li><p><strong>make：</strong> 一个工具程序，它会读 makefile 脚本来确定程序中的哪个部分需要编译和连接，然后发布必要的命令。它读出的脚本（叫做 makefile 或 Makefile）定义了文件关系和依赖关系</p>
+</li>
+</ul>
+<h1 id="make"><a href="#make" class="headerlink" title="make"></a>make</h1><h2 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">target </span><br></pre></td></tr></table></figure>
+<h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><h2 id="shell脚本-amp-函数"><a href="#shell脚本-amp-函数" class="headerlink" title="shell脚本 &amp; 函数"></a>shell脚本 &amp; 函数</h2><h1 id="cmake"><a href="#cmake" class="headerlink" title="cmake"></a>cmake</h1><p>为什么会出现cmake，因为makefile文件过于复杂。并且cmake可处理大型c&#x2F;cpp&#x2F;java等项目</p>
+<h2 id="CmakeLists文件关键字"><a href="#CmakeLists文件关键字" class="headerlink" title="CmakeLists文件关键字"></a>CmakeLists文件关键字</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cmake_minimum_required(VERSION 3.28)</span><br><span class="line">project(cpp)</span><br><span class="line"><span class="built_in">set</span>(CMAKE_CXX_STANDARD 14)</span><br><span class="line">add_executable(cpp main.cpp)</span><br></pre></td></tr></table></figure>
+
+<h3 id="project关键字"><a href="#project关键字" class="headerlink" title="project关键字"></a>project关键字</h3><p>用来指定工程的名字和支持的语言</p>
+<h3 id="set关键字"><a href="#set关键字" class="headerlink" title="set关键字"></a>set关键字</h3><p>set关键字用来显示指定变量，例如 CMAKE_CXX_STANDARD&#x3D;14</p>
+<h3 id="message关键字"><a href="#message关键字" class="headerlink" title="message关键字"></a>message关键字</h3><p>向终端输出用户自定义信息</p>
+<ul>
+<li>SEND_ERROR 产生错误</li>
+<li>status 输出前缀为–的消息</li>
+<li>fatal-error 致命错误</li>
+</ul>
+<h1 id="bazel"><a href="#bazel" class="headerlink" title="bazel"></a>bazel</h1>
     </div>
 
     
@@ -223,7 +255,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E5%88%86%E5%B8%83%E5%BC%8F-raft/" rel="tag"># 分布式-raft</a>
+              <a href="/tags/c/" rel="tag"># c++</a>
           </div>
 
         
@@ -231,13 +263,10 @@
 
         
     <div class="post-nav">
+      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2023/06/20/middle/redis/%E6%8C%81%E4%B9%85%E5%8C%96/rdb/" rel="prev" title="redis-持久化RDB">
-      <i class="fa fa-chevron-left"></i> redis-持久化RDB
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2023/06/20/middle/redis/%E5%88%9D%E8%AF%86redis/" rel="next" title="redis linux环境安装">
-      redis linux环境安装 <i class="fa fa-chevron-right"></i>
+    <a href="/2023/06/20/language/c/c++/" rel="next" title="c++知识点学习">
+      c++知识点学习 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -297,7 +326,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AOF%E6%98%AF%E5%90%8C%E6%AD%A5%E5%AD%98%E5%82%A8%E8%BF%98%E6%98%AF%E5%BC%82%E6%AD%A5%E5%AD%98%E5%82%A8"><span class="nav-number">1.</span> <span class="nav-text">AOF是同步存储还是异步存储</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#bg-AOF"><span class="nav-number">2.</span> <span class="nav-text">bg AOF</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">编译过程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#gcc-amp-g"><span class="nav-number">2.</span> <span class="nav-text">gcc &amp; g++</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#make"><span class="nav-number">3.</span> <span class="nav-text">make</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="nav-number">3.1.</span> <span class="nav-text">基础语法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%98%E9%87%8F"><span class="nav-number">3.2.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#shell%E8%84%9A%E6%9C%AC-amp-%E5%87%BD%E6%95%B0"><span class="nav-number">3.3.</span> <span class="nav-text">shell脚本 &amp; 函数</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#cmake"><span class="nav-number">4.</span> <span class="nav-text">cmake</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#CmakeLists%E6%96%87%E4%BB%B6%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-number">4.1.</span> <span class="nav-text">CmakeLists文件关键字</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#project%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-number">4.1.1.</span> <span class="nav-text">project关键字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#set%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-number">4.1.2.</span> <span class="nav-text">set关键字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#message%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-number">4.1.3.</span> <span class="nav-text">message关键字</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#bazel"><span class="nav-number">5.</span> <span class="nav-text">bazel</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -313,20 +342,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">categories</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
